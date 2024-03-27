@@ -60,9 +60,9 @@ with suppress(ImportError):
     from numcodecs.lz4 import LZ4
     register_codec(LZ4)
 
-with suppress(ImportError):
-    from numcodecs.zfpy import ZFPY
-    register_codec(ZFPY)
+#with suppress(ImportError):
+#    from numcodecs.zfpy import ZFPY
+#    register_codec(ZFPY)
 
 from numcodecs.astype import AsType
 register_codec(AsType)
